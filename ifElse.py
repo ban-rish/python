@@ -34,3 +34,14 @@ elif((n%5 == 0) or (n%3==0)):
         print(n,"second divisible by 3")
 else:
     print(n,"second not divisible")
+
+a = int(input("Enter the first number "))
+b = int(input("Enter the second number "))
+us = input("enter the operation '+' or '-'")
+
+if(us == '+'):
+    print(a+b)
+elif(us == '-'):
+    print(a-b)
+else:
+    print("invalid operation")
