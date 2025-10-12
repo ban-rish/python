@@ -24,4 +24,6 @@ for num in range(3,19):
                 if (i+j+k == num):
                     n+=1
     print(num, round((n/216)*100,2))
-            
+
+for i in range(1,11):
+        print(num*i,end=(" "))
