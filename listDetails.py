@@ -52,3 +52,17 @@ lst2=[3.32,433.12,.4,4343.1]
 print(max(lst2))
 print(min(lst2))
 print('*'*25)
+
+#iterating the list
+print(lst)
+for i in lst:
+    print(i)
+print('*'*25)
+for i in range(len(lst)):
+    print(i,lst[i])
+print('*'*25)
+
+# reverse the list
+for i in range(len(lst)-1,-1,-1):
+    print(i,lst[i])
+print('*'*25)
