@@ -6,6 +6,7 @@ print(2.5+3.5)
 print(2+3.5)
 print(True+False)
 print("Rishabh "+ "Bansal")
+print(id(1))        #refers to the unique identity of the value or variable
 print('-----------------------------')
 
 #subtraction
@@ -129,3 +130,12 @@ print('-----------------------------')
 
 #not
 print(not(True))
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+print(a == b) # Output: True (values are equal)
+print(a is b) # Output: False (different objects in memory)
+print(a is c) # Output: True (a and c refer to the same object)
+c.append(4)
+print(a) # Output: [1, 2, 3, 4] (change in c affects a)

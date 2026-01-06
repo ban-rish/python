@@ -67,3 +67,15 @@ print('-'*23)
 print("Rish".center(23,'-'))
 print("Rish".ljust(23,'-'))
 print("Rish".rjust(23,'-'))
+
+x = [1, 23, 'hello', 1]
+print(type(x))
+# join("ri","cndjk")
+# print()
+
+string = "Hello\nWorld\t!"
+print(repr(string))                 # Output: 'Hello\nWorld\t!'
+print(string)
+
+str1 = '''She said, "I'm learning Python."'''       #with help of triple quotes we can have double and single quotes in String
+print (str1)              # Output: She said, "I'm learning Python."

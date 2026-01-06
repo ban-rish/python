@@ -8,9 +8,10 @@ for i in range(1,11):
 
 # print table in 2 lines
 for i in range(n, (n*10)+1, n):
-    print(i)
+    print(i, end=" ")   #end is used to eliminate cursor going to next line
 
 # nested for loop
+print()
 for i in range(1,7):
     for j in range(1,7):
         print(i, j)
@@ -27,3 +28,8 @@ for num in range(3,19):
 
 for i in range(1,11):
         print(num*i,end=(" "))
+
+print('-'*25)
+
+for o in range(10):
+    print(o, end = ',')

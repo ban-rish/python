@@ -4,6 +4,7 @@ x=0
 y=0
 z=0
 print(a,x,y,z)
+print
 print('-'*20)
 
 # same value to multiple variables
