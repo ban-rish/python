@@ -35,7 +35,11 @@ print('*'*25)
 lst2 = [1,3,43,3232,34,4,655]
 print(sorted(lst2))
 print(sorted(lst2,reverse=True))
+lst2.insert(0, 5)               #insert at specified location
+print("After insert(0, 5):", lst2) 
 print('*'*25)
+lst2.clear()                    #to clear list
+print("After clear():", lst2)
 
 #count the occurance
 print(lst.count(1))
@@ -66,3 +70,24 @@ print('*'*25)
 for i in range(len(lst)-1,-1,-1):
     print(i,lst[i])
 print('*'*25)
+
+# remove(): Removes the first occurrence of an element.
+# pop(): Removes the element at a specific index or the last element if no index is specified.
+# del statement: Deletes an element at a specified index.
+
+a = [10, 20, 30, 40, 50]
+
+a.remove(30)  
+print("After remove(30):", a)
+
+popped_val = a.pop(1)  
+print("Popped element:", popped_val)
+print("After pop(1):", a) 
+
+del a[0]  
+print("After del a[0]:", a)
+
+#list comprehension
+squares = [x**2 for x in range(1, 6)]
+print(squares)
+
