@@ -1,3 +1,12 @@
+# Values in a dictionary can be of any data type and can be duplicated, 
+# whereas keys can't be repeated and must be immutable.
+
+# Keys are case sensitive which means same name but different cases of Key will be treated distinctly.
+# Keys must be immutable which means keys can be strings, numbers or tuples but not lists.
+# Duplicate keys are not allowed and any duplicate key will overwrite the previous value.
+# Internally uses hashing. Hence, operations like search, insert, delete can be performed in Constant Time.
+# From Python 3.7 Version onward, Python dictionary are Ordered.
+
 # initialising the dictionary syntax
 dict = {1:'a',2:'b',3:'c',4:'d',5:'d',6:'f',3:'g'}
 print(dict)
@@ -22,9 +31,15 @@ print(dict)
 print('-'*25)
 
 # cleaning the dictionary 
+print(dict)
+dict.pop(1)
+print(dict)
 dict.clear()
 print(dict)
 print('-'*25)
+
+# We can iterate over keys [using keys() method] , values [using values() method] or 
+# both [using item() method] with a for loop.
 
 # iteration of keys and values
 print(dict1.keys())
@@ -46,6 +61,8 @@ print(1 in dict1)
 print('-'*25)
 
 # update the dictionaries
+# dict = {1:'a',2:'b',3:'c',4:'d',5:'d',6:'f',3:'g'}
+# dict1 = {'a':1,2:'b',3:'c',4:'d',5:'d',6:'f',3:'g','3':'h'}
 dict = {1:'a',2:'b',3:'c',4:'d',5:'d',6:'f',3:'g'}
 dict1.update(dict)
 print(dict1)
