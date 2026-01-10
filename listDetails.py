@@ -79,15 +79,32 @@ a = [10, 20, 30, 40, 50]
 
 a.remove(30)  
 print("After remove(30):", a)
+print('*'*25)
 
 popped_val = a.pop(1)  
 print("Popped element:", popped_val)
 print("After pop(1):", a) 
+print('*'*25)
 
 del a[0]  
 print("After del a[0]:", a)
+print('*'*25)
 
 #list comprehension
 squares = [x**2 for x in range(1, 6)]
 print(squares)
+print('*'*25)
 
+# Empty list 
+numbers = (4,5,1,2,3,5)
+list1 = []
+for i in range(len(numbers)):
+    list1.append(numbers[i]*2)
+number = tuple(list1)
+print(number)
+print('*'*25)
+
+# check index 
+print(list1)
+list1 += [10]
+print(list1)

@@ -1,3 +1,7 @@
+# Tuples can hold elements of different data types.
+# The main characteristics of tuples are being ordered, heterogeneous and immutable.
+
+
 # Tuple Initialization
 tup_1 = (1,2,12,43,1,2)
 print(tup_1)
@@ -44,9 +48,30 @@ print('-'*50)
 print(tup*3)
 print('-'*50)
 
+# Creating a Tuple with nested tuples
+tup1 = (0, 1, 2, 3)
+tup2 = ('python', 'geek')
+tup3 = (tup1, tup2)
+print(tup3)
+print('-'*50)
+
+# Tuple unpacking
+tup = ("Geeks", "For",1,2,3, "Geeks")
+# This line unpack values of Tuple1
+a, *b, c = tup
+print(a)
+print("Here b store elements as list ",b)
+print(c)
+print('-'*50)
+
+# delete a tuple
+tup = (0, 1, 2, 3, 4)
+del tup
+# print(tup)
+
 # set                   tuple                   list                dictionary
 # {}                    ()                      []                  {}
 # Mutable               Immutable               Mutable             Mutable
 # Unordered             Ordered                 Ordered             Ordered
 # No Duplicacy          Duplicacy               Duplicacy           Values can be Duplicate
-# Keyword - set         touple                  list                dict
+# Keyword - set         tuple                   list                dict
