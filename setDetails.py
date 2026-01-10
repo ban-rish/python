@@ -39,3 +39,19 @@ print(2 in my_set)
 print(3 in my_set)
 print(4 in my_set)
 print('-'*50)
+
+# set operations
+set_1 = {1,2,3,4,5}
+set_2 = {4,5,6,7,8}
+print("Union Operation : ", set_1 | set_2)
+print("Intersection Operation : ", set_2 & set_1)
+print("Difference Operation : ", set_2 - set_1)
+print("Symmetric Difference : ", set_1 ^ set_2)
+print('-'*50)
+# Above mentioned all operations are present in Set Data Structure only not in List or Tuple
+
+# clearing the set
+print(my_set)
+my_set.clear()
+print(my_set)
+print('-'*50)
