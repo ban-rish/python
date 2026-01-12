@@ -108,3 +108,7 @@ print('*'*25)
 print(list1)
 list1 += [10]
 print(list1)
+print('*'*25)
+
+li = ['a','b','c','d']
+print("".join(li))      #Output = abcd

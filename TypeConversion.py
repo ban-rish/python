@@ -32,3 +32,5 @@ print('----------------------')
 #two step conversion
 print(int(float("3.14")))
 print(float(int(.322)))
+
+print(type(type(int)))      #output class<Type>

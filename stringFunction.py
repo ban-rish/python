@@ -79,3 +79,6 @@ print(string)
 
 str1 = '''She said, "I'm learning Python."'''       #with help of triple quotes we can have double and single quotes in String
 print (str1)              # Output: She said, "I'm learning Python."
+
+print(chr(ord('A')))      # Output "A"
+
