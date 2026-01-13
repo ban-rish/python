@@ -86,7 +86,7 @@ print('-'*50)
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 finalDict = {(i,j):matrix[i][j] for i in range(3) for j in range(3)}
 print(finalDict)
-print('-'*50)
+print('*'*50)
 
 # we have two lists named keys and value and we are iterating over 
 # them with the help of zip() function.
