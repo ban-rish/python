@@ -1,0 +1,19 @@
+Python Style Guide - 
+1. search "Python Style Guide" on google and open "PEP8 - Style guide"
+2. for assigning variable best way is snake case 
+            ex - user_name = "Saumya"
+3. Function name should also be lowercase with underscore 
+            ex - def print_something():
+4. Class Name should be in Caps words.
+            ex - class UserProfile:
+5. constants should be in all capitalised letters
+            ex - MAx_USER = 100
+6. for indentation we should always use 4 spaces
+            ex - def func():
+                     print()
+7. use blank line to seprate Function and class
+8. import should be in seprate lines and at the top
+9. always write docstring for a function or class explaining what it is doing 
+            ex - def cal_sum():
+                 """This function returns the sum"""
+10. use Lambda, suitable data types, suitable data structure, suitable functions, add indentation, docString

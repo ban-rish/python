@@ -1,0 +1,1 @@
+# Decorator - it means if we have an existing function and we want to extend its capability or change the structure
