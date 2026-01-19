@@ -1,0 +1,4 @@
+1,Beans,200,100
+2,Arhar Pulses,100,100
+3,Flour,50,500
+4,Rice,50,500
